@@ -1,0 +1,24 @@
+h1{
+    color: pink;
+    font-size: larger;
+    font-style: italic;
+}
+#p1,#p2{
+    color: blue;
+    font-style: normal;
+    font-size: medium;
+
+}
+h2{
+    color: blueviolet;
+    font-size: large;
+    font-style: italic;
+}
+#d1{
+    border: 1px solid red;
+    margin: 16px;
+    padding: 20px;
+    width: 90px;
+
+
+}
