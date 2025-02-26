@@ -8,6 +8,8 @@ function Landing() {
   return (
     <div>
       <navBar />
+
+      {/* <NavBar /> */}
       <About />
     </div>
   );
