@@ -1,0 +1,113 @@
+/* Header container */
+.header {
+    display: flex;
+    justify-content: space-between; /* Keeps logo on the left and space for nav */
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #232536;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Centers the nav list horizontally */
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-left: 1.5rem;
+  }
+  
+  .nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    color: #fb8061; /* React blue color on hover */
+  }
+  
+  .btn {
+    padding: 10px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    margin-left: 1.5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 100px;
+  }
+  
+  .image:hover {
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      margin-top: 1rem;
+    }
+  
+    .nav-list {
+      flex-direction: column;
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .nav-list li {
+      margin-left: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .nav-list a {
+      font-size: 1.1rem;
+    }
+  
+    .btn {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 1rem;
+    }
+  
+    .logo {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.2rem;
+    }
+  
+    .nav-list a {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 12px;
+    }
+  }
+  

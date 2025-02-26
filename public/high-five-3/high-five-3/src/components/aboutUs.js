@@ -8,7 +8,6 @@ function About() {
       width: "100%",
       height: "100vh",
       backgroundColor: "#f4f4f4",
-      flexWrap: "wrap", // Allow wrapping on smaller screens
     },
     textSection: {
       flex: 1,
@@ -50,36 +49,10 @@ function About() {
     },
   };
 
-  // Adding a condition for smaller screen
-  const isSmallScreen = window.innerWidth <= 768;
-
-  if (isSmallScreen) {
-    styles.contentBox = {
-      ...styles.contentBox,
-      flexDirection: "column", // Stack elements vertically on small screens
-      height: "auto", // Allow height to adjust when stacking
-    };
-    styles.textSection = {
-      ...styles.textSection,
-      padding: "20px", // Reduce padding on small screens
-      textAlign: "center", // Center align text on smaller screens
-    };
-    styles.imageSection = {
-      ...styles.imageSection,
-      width: "100%",
-    };
-    styles.image = {
-      ...styles.image,
-      width: "80%", // Limit image width on small screens
-      height: "auto", // Adjust height proportionally
-      marginBottom: "20px", // Add margin below the image
-    };
-  }
-
   return (
     <div style={styles.contentBox}>
       <div style={styles.textSection}>
-        <h2 style={styles.title}> About Us :</h2>
+      <h2 style={styles.title}> About Us :</h2>
         <h2 style={styles.titleb}> Discover Amazing Places</h2>
         <p style={styles.description}>
           We help you explore the best locations with detailed insights and personalized recommendations.
@@ -88,7 +61,7 @@ function About() {
       </div>
       <div style={styles.imageSection}>
         <img
-          src="https://imgs.search.brave.com/Z9K0CogLiPBlCAv7AeBcQODuVaFfujEo9yQjMri24Vk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDY3/MTAzNTQxL3Bob3Rv/L2Nhci1yZW50YWwt/c2lnbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9cGpkLTlq/OVEyU3R0Wkh5QVJi/N1ZFbldNUnZBM1hI/Z3l3R2c3Z3dJcTN2/UT0"
+          src="https://imgs.search.brave.com/Z9K0CogLiPBlCAv7AeBcQODuVaFfujEo9yQjMri24Vk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDY3/MTAzNTQxL3Bob3Rv/L2Nhci1yZW50YWwt/c2lnbi5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9cGpkLTlq/OVEyU3R0Wkh5QVJi/N1ZFbldNUnZBM1hI/Z3l3R2c3Z3dJcTN2/UT0" 
           alt="Location"
           style={styles.image}
         />
