@@ -11,3 +11,59 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Header container */
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between; /* Keeps logo on the left and space for nav */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #232536;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav {
+  flex-grow: 1; 
+  display: flex;
+  justify-content: center; /* Centers the nav list horizontally */
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin-left: 1.5rem;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #fb8061; /* React blue color on hover */
+}
+
+.btn{
+  padding: 10px;
+  background-color: #FF5959;
+  color: #FFFFFF;
+  margin-left: 550px;
+
+  
+}
+.image{
+  width: 100px;
+}
