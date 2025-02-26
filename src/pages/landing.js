@@ -7,6 +7,8 @@ import About from '../components/aboutUs';
 function Landing() {
   return (
     <div>
+      <navBar />
+
       {/* <NavBar /> */}
       <About />
     </div>
