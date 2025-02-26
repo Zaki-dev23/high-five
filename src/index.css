@@ -67,3 +67,7 @@ code {
 .image{
   width: 100px;
 }
+
+.image :hover{
+  cursor: pointer;
+}
