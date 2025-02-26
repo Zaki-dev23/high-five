@@ -8,6 +8,8 @@ import HeroSection from '../components/heroSec';
 function Landing() {
   return (
     <div>
+      
+      <HeroSection />
       <NavBar />
       <HeroSection />
       <About />
@@ -16,3 +18,4 @@ function Landing() {
 }
 
 export default Landing;
+j
