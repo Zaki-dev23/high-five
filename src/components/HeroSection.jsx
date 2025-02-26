@@ -29,8 +29,8 @@ const HeroSection = () => {
 
       {/* Contenu */}
       <div className="hero-content">
-        <h1>BIENVENUE SUR OUR <span>LOCATION CAR</span> BLOG</h1>
-        <p>Découvrez les dernières tendances et actualités sur l'univers de l'automobile.</p>
+        <h1>WELCOME TO <br/>  <span> OUR LOCATION CAR</span> BLOG</h1>
+        <p>Discover the latest trends and news in the automotive world.</p>
         <a href="#explore" className="hero-button">Explorer</a>
       </div>
     </section>

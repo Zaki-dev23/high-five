@@ -16,7 +16,11 @@
     margin-bottom: 20px;
   }
   .hero h1 span{
-    color: #fff;
+    color: orangered;
+
+}
+.hero h1 span::before{
+    content: " ";
   }
   
   .hero p {
@@ -30,7 +34,7 @@
   
   .hero-button {
     display: inline-block;
-    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    background: linear-gradient(135deg, #ff7e5f, orangered);
     color: white;
     padding: 15px 30px;
     text-decoration: none;
