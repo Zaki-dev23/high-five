@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/high-five/static/css/main.2765dfd8.css",
-    "main.js": "/high-five/static/js/main.aec2c420.js",
+    "main.css": "/high-five/static/css/main.f5191e4e.css",
+    "main.js": "/high-five/static/js/main.0c77e7e2.js",
     "index.html": "/high-five/index.html",
-    "main.2765dfd8.css.map": "/high-five/static/css/main.2765dfd8.css.map",
-    "main.aec2c420.js.map": "/high-five/static/js/main.aec2c420.js.map"
+    "main.f5191e4e.css.map": "/high-five/static/css/main.f5191e4e.css.map",
+    "main.0c77e7e2.js.map": "/high-five/static/js/main.0c77e7e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.2765dfd8.css",
-    "static/js/main.aec2c420.js"
+    "static/css/main.f5191e4e.css",
+    "static/js/main.0c77e7e2.js"
   ]
 }
