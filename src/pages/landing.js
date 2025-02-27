@@ -3,13 +3,15 @@ import React from 'react';
 import NavBar from '../components/navBar'; 
 import About from '../components/aboutUs';
 import HeroSection from '../components/heroSec';
+import Rapport from '../components/Rapport';
+
 
 
 function Landing() {
   return (
     <div>
       
-      <HeroSection />
+      {/* <HeroSection /> */}
       <NavBar />
       <HeroSection />
       <About />
@@ -19,4 +21,3 @@ function Landing() {
 }
 
 export default Landing;
-j
