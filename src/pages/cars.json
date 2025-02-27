@@ -1,0 +1,18 @@
+
+[
+    {
+      "id": 1,
+      "image": "https://cdn.motor1.com/images/mgl/G4z31/s1/tesla-roadster.jpg",
+      "name": "Tesla Model S",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et perspiciatis quae minus, placeat aliquid harum vero quas ipsam corrupti deserunt at ratione laboriosam, ullam dolorum mollitia? Blanditiis, iusto quod!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et perspiciatis quae minus, placeat aliquid harum vero quas ipsam corrupti deserunt at ratione laboriosam, ullam dolorum mollitia? Blanditiis, iusto quod!",
+      "comments": []
+    },
+    {
+      "id": 2,
+      "image": "https://via.placeholder.com/200",
+      "name": "Ford Mustang",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et perspiciatis quae minus, placeat aliquid harum vero quas ipsam corrupti deserunt at ratione laboriosam, ullam dolorum mollitia? Blanditiis, iusto quod!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et perspiciatis quae minus, placeat aliquid harum vero quas ipsam corrupti deserunt at ratione laboriosam, ullam dolorum mollitia? Blanditiis, iusto quod!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et perspiciatis quae minus, placeat aliquid harum vero quas ipsam corrupti deserunt at ratione laboriosam, ullam dolorum mollitia? Blanditiis, iusto quod!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, et perspiciatis quae minus, placeat aliquid harum vero quas ipsam corrupti deserunt at ratione laboriosam, ullam dolorum mollitia? Blanditiis, iusto quod!",
+      "comments": []
+    }
+  ]
+  
