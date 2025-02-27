@@ -1,0 +1,143 @@
+/* General Styling */
+.posts-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Post Card */
+  .post-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    width: 100%;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image */
+  .post-image {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Title & Description */
+  .post-title {
+    font-size: 22px;
+    margin-top: 15px;
+    color: #222;
+    font-weight: 600;
+  }
+  
+  .post-description {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Comments Section */
+  .comment-title {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  /* Comments List */
+  .comment-list {
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+  
+  .comment {
+    background: #f8f8f8;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .comment:hover {
+    background: #ececec;
+  }
+  
+  /* Delete and Edit Icons */
+  .delete {
+    display: flex;
+    gap: 8px;
+  }
+  
+  /* Trash Icon (Delete) */
+  .bi-trash {
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .bi-trash:hover {
+    color: darkred;
+  }
+  
+  /* Pencil Icon (Edit) */
+  .bi-pencil-square {
+    color: green;
+    cursor: pointer;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .bi-pencil-square:hover {
+    color: darkgreen;
+  }
+  
+  /* Comment Input & Button */
+  .comment-box {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    flex-direction: column;
+  }
+  
+  .comment-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  .comment-input:focus {
+    border: 1px solid #007bff;
+  }
+  
+  .comment-button {
+    background: orangered;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .comment-button:hover {
+    background: orange;
+  }
+  
