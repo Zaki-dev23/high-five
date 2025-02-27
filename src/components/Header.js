@@ -1,17 +1,19 @@
 import React from 'react';
+import { Link } from 'react-scroll';
+
 
 const Header = () => {
   return (
     <header className="header">
       <div  className="logo">
-        <img className="image"  src="/logoo.png" alt="" />
+        <img className="image"  src="https://static.vecteezy.com/system/resources/previews/011/514/549/non_2x/auto-car-concept-logo-design-illustration-free-vector.jpg" alt="" />
       </div>
       <nav className="nav">
         <ul className="nav-list">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">Blogs</a></li>
-          <li><a href="/services">About US</a></li>
-          <li><a href="/contact">Contact Us</a></li>
+          <li><Link href="/">Home</Link></li>
+          <li><Link href="/about">Blogs</Link></li>
+          <li><Link href="/services">About US</Link></li>
+          <li><Link href="/contact">Contact Us</Link></li>
         </ul>
 
         <button className="btn">Subscribe</button>

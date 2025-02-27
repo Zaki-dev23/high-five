@@ -4,6 +4,8 @@ import "./css/rapport.css"
 export default function Rapport() {
     return (
         <div className='info'>
+            
+
             <div className="contact-info">
                 <h2 className="contact-title">Contact Us </h2>
                 <p className="contact-parag">Get in touch with us to learn more about our services or to ask a question. Contact us today and we'll be happy to help!</p>
